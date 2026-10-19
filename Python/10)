@@ -1,7 +1,0 @@
-print("===============================================")
-print("             TEXT PROCESSING TOOL              ")
-print("===============================================")
-
-
-num = input("enter the sentence:")
-print(num)
