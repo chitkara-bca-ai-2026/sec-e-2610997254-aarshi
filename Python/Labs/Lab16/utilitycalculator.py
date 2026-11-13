@@ -1,17 +1,11 @@
-"""
-Lab 16: Utility Calculator
-Assignment: Enterprise Modular Utility Service
-Course: BCA 1st Sem - Programming for AI (2SCOA1102)
-Topics Covered: Functions, Modular Design, User Input, Session History
-"""
+print("aarshi's utility calculator")
 
 # ==============================================================================
-# PART 1: Modular Arithmetic Engine Functions
+# 1: Modular Arithmetic Engine Functions
 # ==============================================================================
 
 def format_number(n):
-    """
-    Helper function to format a number.
+    """Helper function to format a number.
     Returns an integer if the value has no decimal part, otherwise a float.
     """
     if n is None:
@@ -99,13 +93,13 @@ def power(base, exp=2):
 
 
 # ==============================================================================
-# PART 2: Main Application Loop & Session Management
+#  2: Main Application Loop & Session Management
 # ==============================================================================
 
 def display_menu():
     """Prints the main interactive menu."""
     print("================================================")
-    print("      ENTERPRISE MODULAR UTILITY CALCULATOR     ")
+    print("      ENTERPRISE MODULAR UTILITY CALCULATOR by Aarshi Goyal  ")
     print("================================================")
     print("Select an operation:")
     print("1. Addition (+)")
@@ -213,4 +207,4 @@ def main():
 
 
 if __name__ == "__main__":6
-    main()o
+main()
