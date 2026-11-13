@@ -11,16 +11,16 @@ student_wishlist = {"AI", "Cybersecurity"}
 
 while True:
     print("\n===== LIBRARY MENU =====")
-    print("1. View Books")
-    print("2. Add Book")
-    print("3. View Categories")
-    print("4. Add Wishlist")
-    print("5. Gap Analysis")
-    print("6. Exit")
+    print("1. view Books")
+    print("2. add Book")
+    print("3. view Categories")
+    print("4. add Wishlist")
+    print("5. gap Analysis")
+    print("6. exit")
 
     choice = input("Enter your choice (1-6): ")
 
-    # 1. View Books
+    # 1.... View Books
     if choice == "1": 
         if len(books) == 0:
             print("No books available.")
@@ -36,7 +36,7 @@ while True:
 
             print("Total books:", len(books))
 
-    # 2. Add Book
+    # 2......Add Book
     elif choice == "2":
         title = input("Enter book title: ").strip()
         author = input("Enter author name: ").strip()
@@ -54,7 +54,7 @@ while True:
         else:
             print("ERROR: All fields are mandatory.")
 
-    # 3. View Categories
+    # 3. .....View Categories
     elif choice == "3":
         print("\nLibrary Categories:")
         for category in sorted(library_categories):
@@ -62,7 +62,7 @@ while True:
 
         print("Total categories:", len(library_categories))
 
-    # 4. Add Wishlist
+    # 4. ....Add Wishlist
     elif choice == "4":
         category = input("Enter requested category: ").strip()
 

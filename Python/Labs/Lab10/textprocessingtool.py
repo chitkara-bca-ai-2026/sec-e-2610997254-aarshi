@@ -4,23 +4,23 @@ print("=========================================")
 print("         Aarshi'S TEXT PROCESSING TOOL           ")
 print("=========================================")
 
-# 1. Accept a sentence from the user
+# 1......... Accept a sentence from the user
 sentence = input("Enter a sentence: ")
 print()
 
 print("--- Processing Results ---")  
 
-# 2. Display a character at a specific position using string indexing
+# 2...... Display a character at a specific position using string indexing
 pos = int(input("Enter position for indexing: "))
 print(f"Character at position {pos} : '{sentence[pos]}'")
 
-# 3. Extract a portion of the sentence using string slicing
+# 3......Extract a portion of the sentence using string slicing
 start = int(input("Enter start index for slicing : "))
 end = int(input("Enter end index for slicing   : "))
 sliced = sentence[start:end]
 print(f"Sliced string [{start}:{end}]         : '{sliced}'")
 
-# 4. Convert the sentence into uppercase
+# 4...... Convert the sentence into uppercase
 print(f"Uppercase                  : {sentence.upper()}")
 
 # 5. Convert the sentence into lowercase

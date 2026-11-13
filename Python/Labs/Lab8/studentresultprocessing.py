@@ -1,5 +1,5 @@
 print("==========================================================")
-print("                 STUDENT RESULT PROCESSING               ")
+print("                 STUDENT RESULT PROCESSING  BY AARSHI                  ")
 print("==========================================================")
 
 name = input("ENTER STUDENT NAME = ")

@@ -1,4 +1,4 @@
-inventory = ['notebook', 'pen', 'eraser', 'ruler']
+inventory = ['book', 'pen', 'eraser', 'ruler']
 
 while True:
     choice = input("Choose one:\n1. Add item\n2. Remove item\n3. View inventory\n4. Exit\n")

@@ -1,5 +1,5 @@
 print("=====================================================")
-print("                DATA CONVERSION UTILITY               ")
+print("                DATA CONVERSION UTILITY  BY AARSHI           ")
 print("======================================================")
 
 name = str(input("enter product name: "))
@@ -7,7 +7,6 @@ price = float(input("enter product price: "))
 quantity = int(input("enter product quantity: "))
 total = price * quantity
 amount = str(total)
-
 
 print("-------------------------------------------------------------")
 print("               TYPE CASTING SUMMARY             ")

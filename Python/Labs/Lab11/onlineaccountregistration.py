@@ -1,6 +1,6 @@
 # Header
 print("========================================")
-print("       PASSWORD VALIDATION REPORT       ")
+print("       PASSWORD VALIDATION REPORT  BY AARSHI     ")
 print("========================================")
 
 # 1. Take user inputs

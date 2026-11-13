@@ -1,22 +1,22 @@
-name = input("enter employee name: ")
-print(type(name))
+Name = input("enter employee name: ")
+print(type(Name))
 
-id = input("enter employee id: ")
-print(type(id))
+Id = input("enter employee id: ")
+print(type(Id))
 
-salary = float(input("enter employee salary: "))
-print(type(salary))
+Salary = float(input("enter employee salary: "))
+print(type(Salary))
 
-department = input("enter employee department: ")
-print(type(department))
+Department = input("enter employee department: ")
+print(type(Department))
 
-active = bool(input("is employee active? (yes/no): "))
-print(type(active))
+Active = bool(input("is employee active? (yes/no): "))
+print(type(Active))
 
-print("----- Employee Details -----")
+print("---- Employee Details ----")
 
-print("Employee Name:", name)
-print("Employee ID:", id)
-print("Employee Salary:", salary)
-print("Employee Department:", department)
-print("Is Employee Active:", active)
+print("Employee Name:", Name)
+print("Employee ID:", Id)
+print("Employee Salary:", Salary)
+print("Employee Department:", Department)
+print("Is Employee Active:", Active)

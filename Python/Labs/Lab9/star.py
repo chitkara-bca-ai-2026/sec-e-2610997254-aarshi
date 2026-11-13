@@ -9,7 +9,7 @@ for  i in range(8,0,-1):
     print()   
     
 
-    rows = 5
+rows = 5
 
 for i in range(1, rows + 1):
     spaces = rows - i

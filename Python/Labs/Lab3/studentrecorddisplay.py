@@ -1,16 +1,14 @@
 print("=============================")
-print(" STUDENT RECORD DISPLAY ")
+print(" STUDENT RECORD DISPLAY BY AARSHI")
 print("=============================")
 
-studentname = input("Enter student name: ")
-studentage = input("Enter student age: ")
-studentmarks = float(input("Enter student marks: "))
+Studentname = input("Enter student name: ")
+Studentage = input("Enter student age: ")
+Studentmarks = float(input("Enter student marks: "))
 
 print("-------------------------------")
-
 print("Student details:")
-
-print("Name:", studentname)
-print("Age:", studentage)
-print("Marks:", studentmarks)
+print("Name:", Studentname)
+print("Age:", Studentage)
+print("Marks:", Studentmarks)
 print("-------------------------------")

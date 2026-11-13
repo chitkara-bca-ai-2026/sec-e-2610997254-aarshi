@@ -1,24 +1,19 @@
 print("=======================================================")
 print("             ENGENEERING CALCULATION TOOL               ")
 print("=======================================================")
-numvalue = int(input("enter a numeric value: "))
-expvalue = int(input("enter the exponent value: "))
-decivalue = float(input("enter a decimal measurement: "))
-powervalue = numvalue ** expvalue
-squarevalue = numvalue ** 2
-ceilvalue = round(decivalue)
-floorvalue = int(decivalue)
-
-
+Numvalue = int(input("enter a numeric value: "))
+Expvalue = int(input("enter the exponent value: "))
+Decivalue = float(input("enter a decimal measurement: "))
+Powervalue = Numvalue ** Expvalue
+Squarevalue = Numvalue ** 2
+Ceilvalue = round(Decivalue)
+Floorvalue = int(Decivalue)
 print("--------------result------------")
-
-
-print("value         : ", numvalue)
-print("exponent      : ", expvalue)
-print("power         : ", powervalue)
-print("square        : ", squarevalue)
-print("decimal value : ", decivalue)
-print("ceil value    : ", ceilvalue)
-print("floor value   : ", floorvalue)
-
+print("value         : ", Numvalue)
+print("exponent      : ", Expvalue)
+print("power         : ", Powervalue)
+print("square        : ", Squarevalue)
+print("decimal value : ", Decivalue)
+print("ceil value    : ", Ceilvalue)
+print("floor value   : ", Floorvalue)
 print("=======================================")

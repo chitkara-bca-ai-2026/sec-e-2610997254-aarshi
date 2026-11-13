@@ -46,7 +46,7 @@ print(f"Special characters: {special_characters}\n")
 
 print("--- Summary ---")
 print(f"Total letters: {total_letters}")
-print(f"Vowel percentage: {vowel_percentage:.1f}%")
+print(f"Vowel percentage: {vowel_percentage:.2f}%")
 print("=" * 45)
 print("Analysis Complete!")
 print("=" * 45)
